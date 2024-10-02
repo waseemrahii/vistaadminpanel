@@ -79,9 +79,9 @@ const LoginPage = () => {
             </div>
           </div>
           <div className="form-group mb-4">
-            <div className="custom-control custom-checkbox flex items-center justify-center gap-1">
+            <div className="custom-control custom-checkbox flex items-center gap-1">
               <input type="checkbox" className="custom-control-input" id="rememberMe" name="remember" />
-              <label className="custom-control-label text-gray-500" htmlFor="rememberMe">Remember me</label>
+              <label className="flex items-center mt-2 text-center text-gray-500" htmlFor="rememberMe">Remember me</label>
             </div>
           </div>
           <div id="recaptcha_element" className="w-full mb-0" style={{ height: '100px' }}></div>
